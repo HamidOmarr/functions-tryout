@@ -1,10 +1,15 @@
-def fibonacci():
-    while fibonacci >= 1618:
-        fibonacci1 = 1
-        fibonacci2 = 1
-        result = (fibonacci1 + fibonacci2)
-        fibonacci3 = (result + fibonacci2 or fibonacci1)
-        fibonacci1 = 
-        print (fibonacci1)
+def fibonacci(positie):
+    voriggetal = 1
+    getal = 1
+    voriggetal = getal
+    for i in range (positie):
+        toekomstgetal = voriggetal + getal
+      
+        voriggetal = getal
+        getal = toekomstgetal
 
-fibonacci()
+    return toekomstgetal
+   
+
+
+print (fibonacci(6))

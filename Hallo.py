@@ -1,5 +1,3 @@
-def showWelcome():
+def Hallo():
     print('Hello from function town')
-
-
-showWelcome()
+Hallo()
